@@ -69,9 +69,9 @@ Les benchmarks ont été réalisés en variant le nombre de travailleurs pour ch
 
 | Nombre de Travailleurs | Temps DataFrame avec partitionnement | Temps DataFrame sans partitionnement |
 | ---------------------- | ----------------------------------- | ------------------------------------- |
-| 1                      | 46 min 26 s 277 ms                  | ~2,786,277 ms                        |
-| 2                      | 44 min 35 s 995 ms                  | ~2,675,995 ms                        |
-| 4                      | 39 min 30 s 678 ms                  | ~2,370,678 ms                        |
+| 1                      |                  |                         |
+| 2                      |                   |                         |
+| 4                      |                  |                         |
 
 ## Instructions de Configuration
 
