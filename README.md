@@ -59,13 +59,13 @@ Les benchmarks ont été réalisés en variant le nombre de travailleurs pour ch
 
 #### RDD
 
-| Nombre de Travailleurs | Temps RDD avec partitionnement | Temps DataFrame sans partitionnement |
+| Nombre de Travailleurs | Temps RDD avec partitionnement | Temps RDD sans partitionnement |
 | ---------------------- | ------------------------------ | ------------------------------------ |
 | 1                      | 44.99299740791321 s             | 45.278162717819214 s                     |
 | 2                      | 37.06561207771301 s          | 37.021756649017334 s                       |
 | 4                      | 36.382244348526 s           | 36.139880895614624 s                     |
 
-#### PySpark (Classique)
+#### DataFrame
 
 | Nombre de Travailleurs | Temps DataFrame avec partitionnement | Temps DataFrame sans partitionnement |
 | ---------------------- | ----------------------------------- | ------------------------------------- |
