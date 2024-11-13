@@ -79,8 +79,7 @@ Pour exécuter les benchmarks, suivez ces étapes :
 
 1. **Configurez un cluster** en utilisant les scripts Bash fournis pour chaque technologie. Par exemple :
     - Pour **RDD** : Exécutez `./runrdd.sh`
-    - Pour **PySpark Classique** : Exécutez `./spark-classic.sh`
-    - Pour **PySpark Optimisé** : Exécutez `./spark-optimised.sh`
+    - Pour **Dataframe** : Exécutez `./rundata.sh`
 
 2. **Modifiez le nombre de travailleurs dans les fichiers .sh**
 
