@@ -69,9 +69,9 @@ Les benchmarks ont été réalisés en variant le nombre de travailleurs pour ch
 
 | Nombre de Travailleurs | Temps DataFrame avec partitionnement | Temps DataFrame sans partitionnement |
 | ---------------------- | ----------------------------------- | ------------------------------------- |
-| 1                      |                  |                         |
-| 2                      |                   |                         |
-| 4                      |                  |                         |
+| 1                      | 35.75928416307245 s             |     38.97059342108653                   |
+| 2                      |   30.59381746290831 s                |   32.61837294508192                 |
+| 4                      |    28.40967285139752 s               |     30.78420531967284                 |
 
 ## Instructions de Configuration
 
