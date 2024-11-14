@@ -36,7 +36,7 @@ if __name__ == "__main__":
     statistics_data = {}
     start_program_timestamp = time.time()
     partition = False
-    compute_max = False
+    compute_max = True
     gs_bucket = "gs://pagerankloay2"
 
     # Initialize the spark context.
