@@ -1,7 +1,7 @@
 #!/bin/bash
 ##create bucket
 
-
+# Créer le cluster avec des workers qu'on change par nous meme
 gcloud dataproc clusters create cluster-spark \
     --enable-component-gateway \
     --region europe-west1 \
@@ -15,10 +15,7 @@ gcloud dataproc clusters create cluster-spark \
     --worker-boot-disk-size 500
 
 
-## create the cluster 2 workers
-gcloud dataproc clusters create cluster-a35a --enable-component-gateway --region europe-west1 --zone europe-west1-c --master-machine-type n1-standard-4 --master-boot-disk-size 500 --num-workers 2 --worker-machine-type n1-standard-4 --worker-boot-disk-size 500 --image-version 2.0-debian10 --project master-2-large-scale-data
-## run
-## (suppose that out directory is empty !!)
+# Soumettre le job PySpark
 gcloud dataproc jobs submit pyspark --region europe-west1 --cluster cluster-spark gs://pagerankloay2/pagerankdata.py -- gs://public_lddm_data/small_page_links.nt 3
 
 ## access results
