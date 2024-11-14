@@ -81,7 +81,7 @@ Les benchmarks ont été réalisés en variant le nombre de travailleurs, comme 
 #### Entité avec le plus grand page rank : 
 L'entité avec le plus grand PageRank est 🏅 <http://dbpedia.org/resource/Attention-deficit_hyperactivity_disorder>' 0.30051150556157313
 
-![Top_10](https://github.com/user-attachments/assets/1a9ce3b9-d9b1-4cba-acb9-9037e634b9ec)
+![TOP10](https://github.com/user-attachments/assets/dfc054e5-b0db-4ef9-a394-62b9716954bc)
 ## Instructions de Configuration
 
 Pour exécuter les benchmarks, suivez ces étapes :
