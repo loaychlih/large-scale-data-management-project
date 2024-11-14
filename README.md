@@ -78,6 +78,7 @@ Les benchmarks ont été réalisés en variant le nombre de travailleurs, comme 
 | 2                      |   30.59381746290831 s                |   32.61837294508192                 |
 | 4                      |    28.40967285139752 s               |     30.78420531967284                 |
 
+![Top_10](https://github.com/user-attachments/assets/1a9ce3b9-d9b1-4cba-acb9-9037e634b9ec)
 ## Instructions de Configuration
 
 Pour exécuter les benchmarks, suivez ces étapes :
