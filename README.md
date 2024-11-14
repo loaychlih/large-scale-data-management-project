@@ -4,6 +4,11 @@
 
 Ce projet a pour objectif d'évaluer les performances de l'algorithme PageRank implémenté sur les DataFrames et les RDD (Resilient Distributed Datasets) sur Google Cloud Platform (GCP).
 
+## Membres du groupe : 
+
+- Loay Chlih ( ATAL)
+- Mohammed Hmitouch (ATAL)
+
 ## Ressources Fournies
 
 - **Crédit de 50 $ par personne** sur Google Cloud Platform pour configurer et utiliser les clusters.
