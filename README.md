@@ -53,9 +53,9 @@ Pour cette expérience, plusieurs configurations de clusters ont été utilisée
 
 ## Résultats
 
-### Résultats du Benchmark
+### Résultats du Benchmark de small_page_links.nt : 
 
-Les benchmarks ont été réalisés en variant le nombre de travailleurs pour chaque technologie, comme détaillé ci-dessous :
+Les benchmarks ont été réalisés en variant le nombre de travailleurs, comme détaillé ci-dessous :
 
 #### RDD
 
@@ -78,8 +78,8 @@ Les benchmarks ont été réalisés en variant le nombre de travailleurs pour ch
 Pour exécuter les benchmarks, suivez ces étapes :
 
 1. **Configurez un cluster** en utilisant les scripts Bash fournis pour chaque technologie. Par exemple :
-    - Pour **RDD** : Exécutez `./runrdd.sh`
-    - Pour **Dataframe** : Exécutez `./rundata.sh`
+    - Pour **RDD** : Exécutez `./runrdd.sh` en remplacant les donnees par small_page_links.nt
+    - Pour **Dataframe** : Exécutez `./rundata.sh`en remplacant les donnees par small_page_links.nt
 
 2. **Modifiez le nombre de travailleurs dans les fichiers .sh**
 
