@@ -105,6 +105,8 @@ L'entité avec le plus grand PageRank est 🏅 <http://dbpedia.org/resource/Atte
 | 2                      |    -                |         -           |
 | 4                      |     -               |          -            |
 
+- Malheureusement, certaines erreurs, comme l'oubli d'ajouter une commande de suppression des clusters à la fin de nos fichiers .sh, nous ont mis en difficulté dès le début en limitant rapidement nos crédits. Cela nous a contraints à restreindre notre analyse uniquement au temps d'exécution des RDD sans partitionnement pour page_links_en.nt.bz2.
+  
 #### Entité avec le plus grand page rank : 
 L'entité avec le plus grand PageRank est 🏅 : <http://dbpedia.org/resource/Living_people> ' 36794.33146754528
 
