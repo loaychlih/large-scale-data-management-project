@@ -86,17 +86,17 @@ L'entité avec le plus grand PageRank est 🏅 <http://dbpedia.org/resource/Atte
 
 | Nombre de Travailleurs | Temps RDD avec partitionnement | Temps RDD sans partitionnement |
 | ---------------------- | ------------------------------ | ------------------------------------ |
-| 1                      | 44.99299740791321 s             | 45.278162717819214 s                     |
-| 2                      | 37.06561207771301 s          | 37.021756649017334 s                       |
-| 4                      | 36.382244348526 s           | 36.139880895614624 s                     |
+| 1                      | -             | 45.278162717819214 min                     |
+| 2                      | -          | 36.6694716260733 min                    |
+| 4                      | -          | 40.570150716604624 min                  |
 
 #### DataFrame
 
 | Nombre de Travailleurs | Temps DataFrame avec partitionnement | Temps DataFrame sans partitionnement |
 | ---------------------- | ----------------------------------- | ------------------------------------- |
-| 1                      |  s             |                        |
-| 2                      |    s                |                    |
-| 4                      |     s               |                      |
+| 1                      |  -         |                 -       |
+| 2                      |    -                |         -           |
+| 4                      |     -               |          -            |
 
 #### Entité avec le plus grand page rank : 
 L'entité avec le plus grand PageRank est 🏅 : <http://dbpedia.org/resource/Living_people> ' 36794.33146754483
