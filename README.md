@@ -82,6 +82,28 @@ Les benchmarks ont été réalisés en variant le nombre de travailleurs, comme 
 L'entité avec le plus grand PageRank est 🏅 <http://dbpedia.org/resource/Attention-deficit_hyperactivity_disorder>' 0.30051150556157313
 
 ![TOP10](https://github.com/user-attachments/assets/dfc054e5-b0db-4ef9-a394-62b9716954bc)
+#### RDD
+
+| Nombre de Travailleurs | Temps RDD avec partitionnement | Temps RDD sans partitionnement |
+| ---------------------- | ------------------------------ | ------------------------------------ |
+| 1                      | 44.99299740791321 s             | 45.278162717819214 s                     |
+| 2                      | 37.06561207771301 s          | 37.021756649017334 s                       |
+| 4                      | 36.382244348526 s           | 36.139880895614624 s                     |
+
+#### DataFrame
+
+| Nombre de Travailleurs | Temps DataFrame avec partitionnement | Temps DataFrame sans partitionnement |
+| ---------------------- | ----------------------------------- | ------------------------------------- |
+| 1                      |  s             |                        |
+| 2                      |    s                |                    |
+| 4                      |     s               |                      |
+
+#### Entité avec le plus grand page rank : 
+L'entité avec le plus grand PageRank est 🏅 : <http://dbpedia.org/resource/Living_people> ' 36794.33146754483
+
+### Résultats du Benchmark de page_links_en.nt.bz2 :
+
+
 ## Instructions de Configuration
 
 Pour exécuter les benchmarks, suivez ces étapes :
