@@ -101,6 +101,8 @@ L'entité avec le plus grand PageRank est 🏅 <http://dbpedia.org/resource/Atte
 #### Entité avec le plus grand page rank : 
 L'entité avec le plus grand PageRank est 🏅 : <http://dbpedia.org/resource/Living_people> ' 36794.33146754483
 
+![TOP10KBIR](https://github.com/user-attachments/assets/1af4b92c-d947-437a-9bc6-53579fc70b1f)
+
 ### Résultats du Benchmark de page_links_en.nt.bz2 :
 
 
