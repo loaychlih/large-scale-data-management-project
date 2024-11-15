@@ -82,6 +82,13 @@ Les benchmarks ont été réalisés en variant le nombre de travailleurs, comme 
 L'entité avec le plus grand PageRank est 🏅 <http://dbpedia.org/resource/Attention-deficit_hyperactivity_disorder>' 0.30051150556157313
 
 ![TOP10](https://github.com/user-attachments/assets/dfc054e5-b0db-4ef9-a394-62b9716954bc)
+
+#### Comparaison 
+![temp](https://github.com/user-attachments/assets/26b7f495-6c02-48ef-be94-03a36638fa89)
+
+- On peut conclure que le partitionnement et l'augmentation du nombre de travailleurs améliorent le temps d'exécution, surtout pour les DataFrames. Globalement, les DataFrames sont plus performants que les RDD, en particulier avec un partitionnement et davantage de travailleurs.
+
+### Résultats du Benchmark de page_links_en.nt.bz2 :
 #### RDD
 
 | Nombre de Travailleurs | Temps RDD avec partitionnement | Temps RDD sans partitionnement |
@@ -103,7 +110,9 @@ L'entité avec le plus grand PageRank est 🏅 : <http://dbpedia.org/resource/Li
 
 ![TOP10KBIR](https://github.com/user-attachments/assets/1af4b92c-d947-437a-9bc6-53579fc70b1f)
 
-### Résultats du Benchmark de page_links_en.nt.bz2 :
+
+
+
 
 
 ## Instructions de Configuration
