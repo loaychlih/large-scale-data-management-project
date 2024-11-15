@@ -128,5 +128,3 @@ Pour exécuter les benchmarks, suivez ces étapes :
 2. **Modifiez le nombre de travailleurs dans les fichiers .sh**
 
 Assurez-vous que votre compte Google Cloud est configuré et que vous disposez des autorisations nécessaires pour lancer des clusters Dataproc.
-
-## Conclusion
